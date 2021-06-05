@@ -22,9 +22,9 @@ module.exports = {
                 'pink-red-light-brown': ['#FE5A75', '#FEC464']
             },
             background: {
-                'dark-1000': '#0D0415',
-                'dark-900': '#161522',
-                'dark-800': '#202231',
+                'dark-1000': '#f9f9f9',
+                'dark-900': '#dfdfdf',
+                'dark-800': '#fff',
                 'dark-pink-red': '#4e3034'
             },
             border: {
@@ -50,19 +50,19 @@ module.exports = {
 
             'dark-pink': '#221825',
             'dark-blue': '#0F182A',
-            'dark-1000': '#0D0415',
-            'dark-950': '#0d0d1f',
-            'dark-900': '#161522',
-            'dark-850': '#1d1e2c',
-            'dark-800': '#202231',
-            'dark-700': '#2E3348',
-            'dark-600': '#1C2D49',
-            'dark-500': '#223D5E',
+            'dark-1000': '#f9f9f9',
+            'dark-950': '#f2f2f2',
+            'dark-900': '#e6e6e6',
+            'dark-850': '#d9d9d9',
+            'dark-800': '#cccccc',
+            'dark-700': '#bfbfbf',
+            'dark-600': '#b3b3b3',
+            'dark-500': '#a6a6a6',
 
             // TODO: bad... these are causing issues with text colors
             // 'high-emphesis': '#E3E3E3',
-            primary: '#BFBFBF',
-            secondary: '#7F7F7F',
+            primary: '#505050',
+            secondary: '#575757',
             'low-emphesis': '#575757'
         },
         screens: {
@@ -164,13 +164,13 @@ module.exports = {
             textColor: {
                 ...defaultTheme.textColor,
                 'low-emphesis': '#575757',
-                primary: '#BFBFBF',
+                primary: '#505050',
                 secondary: '#7F7F7F',
-                'high-emphesis': '#E3E3E3'
+                'high-emphesis': '#81B01F'
             },
             backgroundColor: {
                 ...defaultTheme.backgroundColor,
-                input: '#2E3348'
+                input: '#2f0600'
             },
             boxShadow: {
                 ...defaultTheme.boxShadow,
@@ -246,7 +246,7 @@ module.exports = {
                         border: 'double 1px transparent',
                         borderRadius: '0.375rem',
                         backgroundImage:
-                            'linear-gradient(#202231, #202231), linear-gradient(to right, #0993EC, #F338C3)',
+                            'linear-gradient(#fff, #fff), linear-gradient(to right, #1a1a1a, #8c8c8c)',
                         backgroundOrigin: 'border-box',
                         backgroundClip: 'padding-box, border-box'
                     }

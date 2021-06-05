@@ -306,7 +306,7 @@ export default function Swap() {
     return (
         <>
             <Helmet>
-                <title>{i18n._(t`Swap`)} | Sushi</title>
+                <title>{i18n._(t`Swap`)} | Comfy</title>
                 <meta
                     name="description"
                     content="Sushi allows for swapping of ERC20 compatible tokens across multiple networks"
@@ -640,25 +640,26 @@ export default function Swap() {
                             backgroundRepeat: 'no-repeat'
                         }}
                     >
-                        <div className="justify-between flex pl-5 pr-8 items-center gap-6">
-                            <div style={{ maxWidth: 134 }}>
-                                <img src={SakeLogo} style={{ maxWidth: '100%' }} />
-                            </div>
-                            <div style={{ maxWidth: 80 }}>
-                                <img src={SakeBottle} style={{ maxWidth: '100%' }} />
-                            </div>
-                            <div
-                                className="text-black font-normal flex flex-col space-y-2"
-                                style={{ lineHeight: 1.3, maxWidth: 250 }}
-                            >
-                                <div className="font-semibold">
-                                    <Trans>Missed the Auction?</Trans>
-                                </div>
-                                <div className="text-xs">
-                                    <Trans>Swap for SAK3 token on SUSHI now. Click here to swap.</Trans>
-                                </div>
-                            </div>
-                        </div>
+                        {/*<div className="justify-between flex pl-5 pr-8 items-center gap-6">*/}
+                        {/*    <div style={{ maxWidth: 134 }}>*/}
+                        {/*        <img src={SakeLogo} style={{ maxWidth: '100%' }} />*/}
+                        {/*    </div>*/}
+                        {/*    <div style={{ maxWidth: 80 }}>*/}
+                        {/*        <img src={SakeBottle} style={{ maxWidth: '100%' }} />*/}
+                        {/*    </div>*/}
+                        {/*    <div*/}
+                        {/*        className="text-black font-normal flex flex-col space-y-2"*/}
+                        {/*        style={{ lineHeight: 1.3, maxWidth: 250 }}*/}
+                        {/*    >*/}
+                        {/*        <div className="font-semibold">*/}
+                        {/*            <Trans>Missed the Auction?</Trans>*/}
+                        {/*        </div>*/}
+                        {/*        <div className="text-xs">*/}
+                        {/*            <Trans>Swap for SAK3 token on SUSHI now. Click here to swap.</Trans>*/}
+                        {/*        </div>*/}
+                        {/*    </div>*/}
+                        {/*</div>*/}
+
                         {/* <div className="justify-between flex pl-5 pr-8 items-center gap-6">
                             <span className="text-high-emphesis font-normal" style={{ lineHeight: 1.3, maxWidth: 250 }}>
                                 <Trans>

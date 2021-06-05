@@ -40,37 +40,37 @@ export function colors(darkMode: boolean): Colors {
         black,
 
         // text
-        text1: darkMode ? '#FFFFFF' : '#000000',
-        text2: darkMode ? '#C3C5CB' : '#565A69',
-        text3: darkMode ? '#6C7284' : '#888D9B',
-        text4: darkMode ? '#565A69' : '#C3C5CB',
-        text5: darkMode ? '#2C2F36' : '#EDEEF2',
+        text1: darkMode ? '#1a1a1a' : '#000000',
+        text2: darkMode ? '#262626' : '#565A69',
+        text3: darkMode ? '#333333' : '#888D9B',
+        text4: darkMode ? '#404040' : '#636363',
+        text5: darkMode ? '#4d4d4d' : '#EDEEF2',
 
         // backgrounds / greys
-        bg1: darkMode ? '#202231' : '#FFFFFF',
-        bg2: darkMode ? 'rgb(22, 21, 34)' : '#F7F8FA',
-        bg3: darkMode ? '#2a3a50' : '#EDEEF2',
-        bg4: darkMode ? '#3a506f' : '#CED0D9',
-        bg5: darkMode ? '#6C7284' : '#888D9B',
+        bg1: darkMode ? '#f9f9f9' : '#FFFFFF',
+        bg2: darkMode ? '#f2f2f2' : '#F7F8FA',
+        bg3: darkMode ? '#e6e6e6' : '#EDEEF2',
+        bg4: darkMode ? '#d9d9d9' : '#CED0D9',
+        bg5: darkMode ? '#cccccc    ' : '#888D9B',
 
         //specialty colors
         modalBG: darkMode ? 'rgba(0,0,0,.425)' : 'rgba(0,0,0,0.3)',
         advancedBG: darkMode ? 'rgba(0,0,0,0.1)' : 'rgba(255,255,255,0.6)',
 
         //primary colors
-        primary1: darkMode ? '#0094ec' : '#0e0e23',
-        primary2: darkMode ? '#0097fb' : '#FF8CC3',
-        primary3: darkMode ? '#00aff5' : '#FF99C9',
-        primary4: darkMode ? '#376bad70' : '#F6DDE8',
-        primary5: darkMode ? '#153d6f70' : '#ebebeb',
+        primary1: darkMode ? '#ff9999' : '#0e0e23',
+        primary2: darkMode ? '#ff8080' : '#FF8CC3',
+        primary3: darkMode ? '#ff4d4d' : '#FF99C9',
+        primary4: darkMode ? '#ff1a1a' : '#F6DDE8',
+        primary5: darkMode ? '#e63636' : '#ebebeb',
 
         // color text
-        primaryText1: darkMode ? '#6da8ff' : '#0e0e23',
+        primaryText1: darkMode ? '#382016' : '#0e0e23',
 
         // secondary colors
-        secondary1: darkMode ? '#0094ec' : '#ff007a',
-        secondary2: darkMode ? '#17000b26' : '#F6DDE8',
-        secondary3: darkMode ? '#17000b26' : '#ebebeb',
+        secondary1: darkMode ? '#8cd9b3' : '#ff007a',
+        secondary2: darkMode ? '#66cc99' : '#F6DDE8',
+        secondary3: darkMode ? '#40bf80' : '#ebebeb',
 
         // other
         red1: '#FD4040',
@@ -171,8 +171,8 @@ export const TYPE = {
 
 export const ThemedGlobalStyle = createGlobalStyle`
 html {
-  color: #BFBFBF;
-  background-color: #0D0415;
+  color: #505050;
+  background-color: #fcfcfc;
 }
 
 input, textarea {
